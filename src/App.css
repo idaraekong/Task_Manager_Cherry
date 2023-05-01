@@ -1,0 +1,59 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    color: rgb(36, 28, 28);
+    
+  }
+  
+/* navbar */
+.nav-bar {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4c768d;
+    color: #25443a;
+    height: 60px;
+  }
+  .sign-in {
+    border: none;
+    background-color: transparent;
+  }
+  .sign-in > img {
+    height: 30px;
+    width: auto;
+  }
+  .sign-out {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #88dded;
+    border: 1px solid #1c2c4c;
+    background-color: #1c2c4c;
+    font-weight: 600;
+  }
+  
+  /* welcome page */
+  .welcome {
+    padding: 30px;
+    height: 100px;
+    text-align: center;
+    margin-top: 40px;
+    color: #7cc5d9;
+  }
+  .welcome :is(h2, p, img) {
+    margin-bottom: 20px;
+  }
