@@ -87,6 +87,10 @@ Cherry
 
 If you have any feedback, please reach out to me at idaraekong2@gmail.com
 
+## Achievements
+
+https://trello.com/b/DiwxDVY8/mvp 
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
