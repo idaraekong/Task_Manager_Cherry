@@ -1,23 +1,27 @@
 # Project Name
-DietGPT - Your friendly pidgin ai diet assistant
+Cherry - Your real-time personal assistant
 
-<img src="dietGPT-landing.PNG" width="100%"/>
+![image](https://github.com/idaraekong/Task_Manager_Cherry/assets/9981595/0d8c9a6d-8af8-4c08-810c-10a6ec20ab39)
+
 
 ## Introduction
 
-An AI project that utilizes the ChatGPT API but fully customized to only respond to health and diet related prompts. DietGPT is a web application that generates personalized diet plans based on user preferences and dietary restrictions. It uses the GPT-3 language model to generate meal plans and recipes that meet the user's needs. The application is built with Next.js, Tailwind CSS, OpenAI, NextAuth and Prisma ORM.
+This project was built on React a JavaScript framework that is a declarative, flexible, and open-source library for building user interfaces based on UI components. It's typically used to develop web applications that require constant data changes on their UIs. A typical approach would require us to reload the entire website when we click on any component, but React avoids reprocessing every line of code using components. I chose React because of its flexibility features aligned well with our project requirements and would improve the user experience. The database is Firestore which is a fully managed, scalable, and serverless document database. It effortlessly scales to meet any demand, with no maintenance while accelerating development of mobile, web, and IoT apps with direct connectivity to the database. It has a built-in live synchronization and offline mode that makes it easy to develop real-time applications. It has a customizable security and data validation rules that ensures the data is always protected. It has a seamless integration with Firebase and Google Cloud services like Cloud Functions and BigQuery or Google Authentication which is a security requirement for our project.
 
-DietGPT was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences. This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. I am proud to have developed a solution that addresses a common problem for many people, and I hope that this chatbot will help others eat healthier and save time in the kitchen.
+The task manager app is intended to solve the problem of managing the status of planned activities on daily, weekly or monthly routine. Many people struggle with remembering what they had planned to do on daily basis, especially when trying to manage their time efficiently while also trying to balance mental and physical wellbeing. This app aims to provide a real-time solution by  keeping track and ensuring all planned activities are easily accessible to the user when there is urgent need to confirm what to do at any time of the day by the user..
+
+The task manager app will not solve the problem of suggesting activities for the users as they are supposed to make manual entries by themselves. Additionally, the app will not be able to provide reminders in this current version as at when each activity is due, as it will only display details earlier entered by the user about each tasks on the list for certain period. However, reminders will be added on future upgrades.
+
 
 ## Installation
 ### 1. Clone the repository
 ```bash 
-git clone https://github.com/umohpyro/DietGPT.git
+git clone https://github.com/umohpyro/Task_Manager_Cherry.git
 ```
 
 ### 2. Navigate to the project directory
 ```bash 
-cd DietGPT
+cd Task_Manager_Cherry
 ``` 
 
 ### 3. Install dependencies
@@ -25,57 +29,30 @@ cd DietGPT
 npm install
 ```
 
-### 4. Create a copy of the .env.local file in the root directory and fill the configuration variables:
+### 4. Create a copy of the firebase.config.js file in the source directory and fill the configuration variables:
 ```bash
 # ------------------------
-# NextAuth.js Configuration
+# Firebase Configuration
 # ------------------------
 
-NEXTAUTH_SECRET=secret
-NEXTAUTH_URL=http://localhost:3000
-
-# ------------------------
-# OAuth Providers
-# ------------------------
-
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-
-# ------------------------
-# Database
-# ------------------------
-
-DATABASE_URL=
-
-# ------------------------
-# OpenAI
-# ------------------------
-OPENAI_API_KEY=
-
-# ------------------------
-# Redis
-# ------------------------
-REDIS_URL=
-REDIS_SECRET=
-```
 
 
 ### 5. Start the development server
 ```bash
-npm run dev
+npm start
 # or
-yarn dev
+yarn start
 # or
-pnpm dev
+pnpm start
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Usage
 
-*   Create an account or log in with an existing account
-*   Enter your dietary preferences and restrictions
-*   Click the button
-*   View your personalized diet plan and recipes
+*   Log in with an existing google account
+*   Click on add todo button then create new records through the modal interfaace
+*   Click the add button to save records
+*   View your dashboard of entire records
 
 ## Contributing
 Contributions are welcome! To contribute, follow these steps:
@@ -98,29 +75,17 @@ git push origin feature/<feature-name>
 ## Features
 <img src="banner.PNG" width="100%"/>
 
-- Rate Limited API routes
-- Protection of sensitive routes
+- Firebase real-time database
 - Google authentication
-- Typescript
-- A complete API key system to create & revoke user keys
+- React responsive UI
 
-- Radix UI Primitives
-- Tailwind CSS
-- Fonts with next/font
-- Icons from Lucide
-- Beautiful dark mode with next-themes
-
-- Class merging with taiwind-merge
-- Animation with tailwindcss-animate
-- Conditional classes with clsx
-- Variants with class-variance-authority
 
 ## Related Projects
-ChatGPT 
+Cherry 
 
 ## Feedback
 
-If you have any feedback, please reach out to me at andemumoh@gmail.com
+If you have any feedback, please reach out to me at idaraekong2@gmail.com
 
 ## License
 
