@@ -65,12 +65,11 @@ input {
   justify-content: space-between;
   background-color: #4c768d;
   color: #25443a;
-  height: 130px;
+  height: 140px;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .about > p {
