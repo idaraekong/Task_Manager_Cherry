@@ -22,7 +22,7 @@ const About = () => {
             to the user when there is urgent need to confirm what to do at 
             any time of the day by the user</p>
                
-	   <footer>Created by Idara Ekong. © 2023 | <a href="https://github.com/idaraekong/Task_Manager_Cherry"> <img src="github-logo.png" alt="Cherry on Github" width="100" height="132"/> </a></footer>
+	   <footer>Created by Idara Ekong. © 2023 | <a href="https://github.com/idaraekong/Task_Manager_Cherry"> <img src="/git.jpg" alt="" width="30" height="30"/>Cherry on Github</a></footer>
        
         
       </main>
