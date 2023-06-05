@@ -20,6 +20,8 @@ function App() {
           <Todo />
         </>
       )}
+
+     <About />
     </div>
   );
 }
