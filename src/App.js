@@ -4,6 +4,7 @@ import './App.css';
 import Todo from './components/Todo';
 import NavBar from "./components/NavBar";
 import Welcome from "./components/Welcome";
+import About from "./components/About";
 
 
 function App() {
