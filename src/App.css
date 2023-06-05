@@ -57,3 +57,28 @@ input {
   .welcome :is(h2, p, img) {
     margin-bottom: 20px;
   }
+
+/* about section */
+.about {
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4c768d;
+  color: #25443a;
+  height: 130px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.about > p {
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+.about > footer {
+  text-align: center;
+  bottom: 0;
+}
