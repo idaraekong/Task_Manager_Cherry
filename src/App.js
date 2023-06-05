@@ -9,19 +9,20 @@ import Welcome from "./components/Welcome";
 function App() {
   const [user] = useAuthState(auth);
 
-  return (
+    return (
     <div className="App">      
       <NavBar />
       
       {!user ? (
-        <Welcome />
+        <Welcome/>        
       ) : (
         <>
-          <Todo />
+          <Todo/>
         </>
       )}
 
-     <About />
+       <About />
+       
     </div>
   );
 }
